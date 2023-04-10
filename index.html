@@ -1,0 +1,2599 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Cormorant+Garamond:wght@600&family=Inspiration&family=Montserrat&family=Oswald&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Cormorant+Garamond:wght@600&family=Inspiration&family=Montserrat:wght@600&family=Oswald&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inspiration&family=Montserrat:wght@600&family=Oswald&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inspiration&family=Montserrat:wght@600&family=Oswald&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inspiration&family=Montserrat:wght@600&family=Oswald&family=Playfair+Display:wght@700&family=Poppins:wght@700&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* Section One Styling */
+    .section-one {
+        height: 100%;
+        width: 100%;
+        background-image: url('https://images.clickfunnels.com/ab/ee2af0bfd211e88d4a43203e118004/bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100% !important;
+        font-family: Montserrat, Helvetica, sans-serif !important;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .main-content .main-logo {
+        height: 35px;
+        width: 140px;
+        padding: 30px 0 20px 0;
+    }
+
+    .inner-content {
+        text-align: center;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .inner-content h1 {
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .inner-content h2 {
+        font-size: 24px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+
+    #heading-clr {
+        color: #191d1d;
+
+    }
+
+    .inner-div-content {
+        height: 370px;
+        width: 650px;
+        background-color: rgb(21, 23, 23);
+        color: white;
+        font-family: Montserrat, Helvetica, sans-serif !important;
+    }
+
+
+
+
+    .headline-wrapper {
+        text-align: center;
+        font-size: 38px;
+        color: rgb(255, 255, 255);
+        padding: 50px;
+    }
+
+    .headline-wrapper #headline-wrapper-color {
+        color: rgb(37, 184, 210);
+    }
+
+    img.envelop-img {
+        height: 145px;
+        width: 205px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .bottom-div {
+        text-align: center;
+        font-weight: 700;
+        color: #191d1d;
+        font-size: 30px;
+    }
+
+
+    @media (max-width:740px) {
+        .inner-div-content {
+            width: 550px;
+            height: auto;
+
+        }
+
+        .main-content {
+            width: auto;
+            margin: 0 20px;
+        }
+    }
+
+    @media (max-width:560px) {
+        .inner-div-content {
+            width: 450px;
+
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        .inner-content h1 {
+            font-size: 27px;
+
+        }
+    }
+
+    @media(max-width:460px) {
+        .main-content {
+            padding-bottom: 120px;
+        }
+
+        .inner-div-content {
+            width: 350px;
+
+        }
+    }
+
+    @media(max-width:350px) {
+        .inner-div-content {
+            width: 250px;
+
+        }
+
+        .headline-wrapper {
+            font-size: 27px;
+        }
+    }
+
+
+
+
+
+
+    /* Section Two Styling */
+
+    .section-two {
+        height: 100%;
+        width: 100%;
+    }
+
+    .section-two__headline .headline-content {
+        text-align: center;
+        font-size: 24px;
+        font-family: Cardo, Helvetica, sans-serif !important;
+        color: #333;
+        line-height: 1.3em;
+    }
+
+    .section-two__headline {
+        margin-top: 25px;
+    }
+
+    .section-two__text__row-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-two__text__row-one .text-content__row-one {
+        height: auto;
+        width: 60%;
+    }
+
+    .section-two__text__row-one .inner-text {
+        margin-top: 15px;
+        outline: none;
+        font-family: Cardo, Helvetica, sans-serif !important;
+        /* font-family: 'Cormorant Garamond', serif; */
+        font-size: 20px;
+        color: #333;
+        padding: 20px 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        line-height: 1.5em;
+    }
+
+    .section-two__text__row-one .text-content__row-two {
+        height: auto;
+        width: 45%;
+        text-align: center;
+        font-size: 32px;
+        color: #333;
+        padding: 10px 100px;
+    }
+
+    .section-two__text__row-one .text-content__row-three {
+        font-size: 20px;
+        line-height: 1.5em;
+        color: #333;
+    }
+
+    .text-content__row-three {
+        width: 50%;
+        margin: 0 50px;
+        margin-top: 10px;
+        display: flex;
+
+    }
+
+    .text-content__row-three .row-three__col-one {
+        width: 50%;
+        height: auto;
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+    }
+
+    .text-content__row-three .row-three__col-two {
+        width: 50%;
+        height: auto;
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+
+    }
+
+    .section-two__text__row-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-row-two__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 35px;
+        gap: 2rem;
+    }
+
+    .row-two__content-headline {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Poppins SemiBold', Arial, Sans-Serif;
+        width: 56%;
+
+    }
+
+    .row-two__content-description .iconSize {
+        width: 20px;
+    }
+
+    .row-two__content-description {
+        font-size: 20px;
+        line-height: 1.5em;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 90%;
+    }
+
+    .flex-section-three-description {
+        display: flex;
+
+        gap: 2.5rem;
+        width: 55%;
+    }
+
+
+    .section-two__row-three {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-two__text__row-three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3em;
+        padding: 50px 30px;
+
+    }
+
+    .section-two__text__row-three .row-three__image img {
+        width: 50%;
+    }
+
+    .section-two__text__row-three .row-three__image {
+        text-align: center;
+    }
+
+    .section-two__text__row-three .text__row-three__headline {
+        font-size: 32px;
+        text-align: center;
+        color: #333;
+        width: 40%;
+    }
+
+    @media (max-width:1160px) {
+
+        .text-content__row-three {
+            width: 60%;
+
+        }
+    }
+
+    @media (max-width:900px) {
+        .section-two__text__row-one .text-content__row-one {
+            width: 100%;
+        }
+
+        .text-content__row-three {
+            width: 67%;
+
+        }
+    }
+
+    @media (max-width:740px) {
+        .section-two__text__row-one .text-content__row-two {
+            width: 75%;
+        }
+
+        .text-content__row-three {
+            flex-direction: column;
+            width: 85%;
+
+        }
+
+        .flex-section-three-description {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+            width: 100%;
+
+        }
+
+        .section-two__text__row-three .text__row-three__headline {
+
+            width: 100%;
+        }
+
+
+
+        .text-content__row-three .row-three__col-one {
+            width: 100%;
+            padding: 30px 0px;
+
+
+        }
+
+
+        .text-content__row-three .row-three__col-two {
+            width: 100%;
+            padding: 30px 0px;
+
+        }
+
+        .section-two__text__row-one .text-content__row-two {
+            padding: 10px 60px;
+        }
+
+        .section-two__text__row-three {
+
+            padding: 50px 0px;
+        }
+    }
+
+    @media (max-width:561px) {
+        .main-content {
+            padding: 110px;
+        }
+    }
+
+    @media (max-width:480px) {
+        .section-two__text__row-one .text-content__row-two {
+            padding: 10px 20px;
+        }
+
+        .section-two__text__row-one .inner-text {
+            padding: 20px 20px;
+        }
+    }
+
+
+    /* SECTION THREE STYLING */
+    .section-three__main-content {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .section-three__main-headline {
+        background-image: url("https://images.clickfunnels.com/b0/79a9b0bfd611e8a788a58757ecfd4d/bg2.png");
+        background-position: center;
+        background-size: 100% 100% !important;
+
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+    }
+
+    .inner-content__headline-wrapper {
+        text-align: center;
+        text-align: center;
+        font-size: 42px;
+        color: rgb(255, 255, 255);
+        width: 50%;
+    }
+
+    .inner-content__headline-wrapper b {
+        color: black;
+    }
+
+    .section-three__text__row-one {
+        margin: 50px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-three__text__row-one__col {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 70%;
+        gap: 2rem;
+    }
+
+    .section-three__text__row-one__col-one {
+        width: 20%;
+        text-align: left;
+        font-size: 30px;
+        color: #2e2e2e;
+        font-weight: 700;
+        padding: 10px 30px;
+        line-height: 1.42857143;
+    }
+
+    .section-three__text__row-one__col-two {
+        width: 30%;
+        font-size: 23px;
+        color: #969696;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        line-height: 1.42857143;
+        padding: 10px 30px;
+
+    }
+
+    .section-three__text__row-one__col-two b {
+        color: black;
+
+    }
+
+    .section-three__text__row-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        ;
+    }
+
+    .section-three__text__row-two__inner-content {
+        width: 33%;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 32px;
+        color: #333;
+        padding: 20px 20px;
+    }
+
+
+    @media (max-width:948px) {
+        .inner-content__headline-wrapper {
+            font-size: 37px;
+            width: 70%;
+        }
+
+        .section-three__text__row-two__inner-content {
+            width: 80%;
+        }
+    }
+
+    @media (max-width:850px) {
+        .section-three__text__row-one__col {
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .section-three__text__row-one__col-one {
+            width: 100%;
+        }
+
+        .section-three__text__row-one__col-two {
+            width: 100%;
+        }
+
+        .section-three__text__row-one__col-one {
+            padding: 10px 0;
+        }
+
+        .section-three__text__row-one__col-two {
+            padding: 10px 0;
+        }
+
+    }
+
+    @media (max-width:597px) {
+        .inner-content__headline-wrapper {
+            font-size: 28px;
+            width: 100%;
+        }
+    }
+
+    /* Section Four */
+
+    .section-four {
+        height: 100%;
+        width: 100%;
+
+        background-image: url("https://images.clickfunnels.com/61/8a39d0bfd811e895a193082ea6ec0b/1.png");
+        background-size: 300px;
+        background-repeat: no-repeat;
+    }
+
+    .section-four__container {
+        width: 100%;
+        height: 100%;
+        padding: 50px 0px;
+    }
+
+    .section-four__row-one__main-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-four__row-one__col-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 120px;
+
+
+
+
+    }
+
+    .section-four__row-one__col-one {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+
+    }
+
+    .section-four__row-one__col-one .sec-four-image-one {
+        width: 50%;
+    }
+
+    .section-four__row-one__col-two {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 19px;
+        line-height: 1.42857143;
+        font-weight: 300;
+        color: #333;
+        padding: 10px 10px;
+
+
+    }
+
+    .section-four__row-one__col-two .section-four__col-two__headline-wrapper {
+        font-size: 35px;
+        line-height: 30px;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    .section-four__row-one__col-three {
+        margin-top: 58px;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 19px;
+        line-height: 1.42857143;
+        color: #333;
+        padding: 10px 10px;
+
+    }
+
+    @media (max-width:1100px) {
+        .section-four__row-one__col-three {
+            width: 35%;
+        }
+
+        .section-four__row-one__col-two {
+            width: 35%;
+        }
+    }
+
+    @media (max-width:800px) {
+        .section-four__row-one__col-content {
+            flex-direction: column;
+            margin-left: 0;
+            padding: 0 15px;
+        }
+
+        .section-four__row-one__col-one {
+            width: 100%;
+        }
+
+        .section-four__row-one__col-two {
+            width: 100%;
+            padding: 10px 0;
+
+
+        }
+
+        .section-four__row-one__col-three {
+            width: 100%;
+            padding: 10px 0;
+            margin-top: 0;
+
+        }
+
+        .section-four {
+            background-image: none;
+        }
+
+        .section-four__row-one__col-content {
+            width: 100%;
+        }
+    }
+
+
+    /* Section Five Styling */
+
+    .section-five {
+        height: 100%;
+        width: 100%;
+        background-image: url("https://images.clickfunnels.com/b7/688950bfd911e895a193082ea6ec0b/2.png");
+        background-position: right;
+        background-size: 300px;
+        background-repeat: no-repeat;
+    }
+
+    .section-five__main-content__col-two .section-five__main-content__col-two__img {
+        width: 75%;
+    }
+
+    .section-five__main-content__col-two {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 35px;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inspiration&family=Montserrat:wght@600&family=Oswald&family=Poppins:wght@700&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+    .section-five__main-content__col-one .section-five__col-one__headline-wrapper {
+        font-size: 35px;
+        line-height: 31px;
+        color: #000;
+        padding-bottom: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .section-five__main-content__col-one {
+        width: 51%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 19px;
+        line-height: 1.42857143;
+        font-weight: 300;
+        color: #333;
+        padding: 10px 10px;
+    }
+
+    .section-five__container {
+        width: 100%;
+    }
+
+    .section-five__main-content {
+        width: 70%;
+        position: relative;
+        left: 145px;
+
+    }
+
+    .section-five__main-content-col {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    @media (max-width:800px) {
+        .section-five__main-content-col {
+            flex-direction: column-reverse;
+        }
+
+        .section-five {
+            background-image: none;
+        }
+
+        .section-five__main-content {
+            width: 90%;
+            position: unset;
+            padding: 0 20px;
+        }
+
+        .section-five__main-content__col-one {
+            width: 100%;
+            margin-top: 15px;
+
+            padding: 10px 0;
+        }
+
+        .section-five__main-content__col-two {
+            width: 100%;
+            padding: 10px 0;
+
+        }
+
+    }
+
+    @media (max-width:400px) {
+        .section-five__main-content {
+            padding: 0 15px;
+        }
+    }
+
+    /* Section Six Styling */
+    .section-six {
+        height: 100%;
+        width: 100%;
+
+        background-image: url("https://images.clickfunnels.com/39/2ab9f0bfd911e88ac83b7c0ed05efa/3.png");
+        background-size: 300px;
+        background-repeat: no-repeat;
+    }
+
+    .section-six__container {
+        width: 100%;
+        height: 100%;
+        padding: 50px 0px;
+    }
+
+    .section-six__row-one__main-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-six__row-one__col-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 120px;
+
+
+
+
+    }
+
+    .section-six__row-one__col-one {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+
+    }
+
+    .section-six__row-one__col-one .sec-six-image-one {
+        width: 50%;
+    }
+
+    .section-six__row-one__col-two {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 19px;
+        line-height: 1.42857143;
+        font-weight: 300;
+        color: #333;
+        padding: 10px 10px;
+
+
+    }
+
+    .section-six__row-one__col-two .section-six__col-two__headline-wrapper {
+        font-size: 35px;
+        line-height: 30px;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    .section-six__row-one__col-three {
+        /* margin-top: 58px; */
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 19px;
+        line-height: 1.42857143;
+        color: #333;
+        padding: 10px 10px;
+
+    }
+
+    @media (max-width:1100px) {
+        .section-six__row-one__col-three {
+            width: 35%;
+        }
+
+        .section-six__row-one__col-two {
+            width: 35%;
+        }
+    }
+
+    @media (max-width:800px) {
+        .section-six__row-one__col-content {
+            flex-direction: column;
+            margin-left: 0;
+            padding: 0 15px;
+        }
+
+        .section-six__row-one__col-one {
+            width: 100%;
+        }
+
+        .section-six__row-one__col-two {
+            width: 100%;
+            padding: 10px 0;
+
+
+        }
+
+        .section-six__row-one__col-three {
+            width: 100%;
+            padding: 10px 0;
+            margin-top: 0;
+
+        }
+
+        .section-six {
+            background-image: none;
+        }
+
+        .section-six__row-one__col-content {
+            width: 100%;
+        }
+    }
+
+
+
+    /* Section Seven Styling */
+
+    .section-seven {
+        height: 100%;
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .section-seven__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section-seven__main-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section-seven__main-content .section-seven__text {
+        text-align: center;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins SemiBold', Arial, Sans-Serif;
+        font-weight: 700;
+    }
+
+    .section-seven__main-content .section-seven__headline-wrapper {
+        font-size: 35px;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Poppins SemiBold', Arial, Sans-Serif;
+        font-weight: 700;
+
+    }
+
+
+    /* Section Eight Styling */
+    .section-eight {
+        height: 100%;
+        width: 100%;
+        background-image: url("https://images.clickfunnels.com/33/1a1310bfdb11e8b79735f0e35b501e/bg-stuart.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+
+    .section-eight__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+    }
+
+    .section-eight__main-content {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 15px 10px;
+    }
+
+
+
+    .section-eight__content__image {
+        vertical-align: middle;
+    }
+
+    .section-eight__content__image .section-eight__profile-image {
+        width: 500px;
+
+    }
+
+    .section-eight__content__header {
+        font-size: 54px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        /* font-family: "Playfair Display", Helvetica, sans-serif !important; */
+        text-align: center;
+    }
+
+    .section-eight__content__name {
+        font-size: 65px;
+        line-height: 65px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 600;
+        font-family: "Playfair Display", Helvetica, sans-serif !important;
+        text-align: center;
+
+
+    }
+
+    @media (max-width:800px) {
+
+        .section-eight__content__header {
+            font-size: 40px;
+        }
+
+        .section-eight__content__image .section-eight__profile-image {
+            width: 450px;
+
+        }
+
+    }
+
+    @media(max-width:843px) {
+        .section-eight__content__name {
+            font-size: 55px;
+        }
+
+    }
+
+    @media(max-width:713px) {
+        .section-eight__content__name {
+            font-size: 50px;
+        }
+
+    }
+
+    @media(max-width:649px) {
+        .section-eight__content__name {
+            font-size: 44px;
+        }
+    }
+
+    @media(max-width:570px) {
+        .section-eight__content__image .section-eight__profile-image {
+            width: 350px;
+        }
+    }
+
+    @media(max-width:400px) {
+        .section-eight__content__image .section-eight__profile-image {
+            width: 300px;
+        }
+    }
+
+    @media(max-width:350px) {
+        .section-eight__content__image .section-eight__profile-image {
+            width: 275px;
+        }
+    }
+
+
+
+
+    /* Section nine Styling */
+    .section-nine {
+        background-color: rgb(229, 236, 241);
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .section-nine__container {
+        width: 100%;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-nine__main-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 1.2rem;
+    }
+
+    .section-nine__main-content__logos {
+
+        display: flex;
+        gap: 2rem;
+        padding: 10px 5px;
+        width: 65%;
+    }
+
+    .section-nine__main-content__logos img {
+        width: 65%;
+    }
+
+    .section-nine__main-content__logo-three {
+        padding: 7px;
+    }
+
+    .section-nine__main-content__logo-four {
+        padding: 3px;
+    }
+
+    .section-nine__main-content__text {
+        padding: 5px;
+        text-align: center;
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins SemiBold', Arial, Sans-Serif;
+        font-weight: 600;
+        word-spacing: 2px;
+    }
+
+    @media (max-width:1450px) {
+        .section-nine__main-content__logos {
+            width: 75%;
+        }
+    }
+
+    @media (max-width:1200px) {
+        .section-nine__main-content__logos {
+            width: 85%;
+        }
+    }
+
+    @media (max-width:950px) {
+        .section-nine__main-content__logos {
+            width: 95%;
+        }
+    }
+
+    /* @media (max-width:850px) {
+        .section-nine__main-content__logos {
+            width: 100%;
+        }
+    } */
+    @media (max-width:770px) {
+        .section-nine__main-content__logos {
+            flex-direction: column;
+        }
+
+        .section-nine__main-content__logos img {
+            width: 50%;
+        }
+    }
+
+
+
+    /* Section Ten Styling */
+
+    .section-ten {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-ten__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-ten__main-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 70px 0;
+    }
+
+    .section-ten__row-one {
+        width: 51%;
+        text-align: center;
+        padding: 45px 10px;
+        border: 2px solid #2e2e2e;
+        border-left: none;
+        border-right: none;
+    }
+
+    .section-ten__row-one__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+        font-size: 20px;
+        line-height: 27.3px;
+        color: #333;
+        font-family: Cardo, Helvetica, sans-serif !important;
+        padding: 10px;
+    }
+
+    .section-ten__row-two {
+        margin-top: 55px;
+        /* margin-bottom: 50px; */
+    }
+
+    .section-ten__row-two__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .section-ten__row-two__header {
+        font-size: 50px;
+        font-family: serif;
+        font-weight: 600;
+    }
+
+    .section-ten__row-two__image {
+        text-align: center;
+    }
+
+    .section-ten__row-two__img {
+        width: 40%;
+    }
+
+    .section-ten__row-three {
+        padding: 55px 75px;
+        /* margin: 65px auto 0px; */
+        /* outline: none; */
+        width: 46%;
+        max-width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .section-ten__row-three__content {
+        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+        padding: 50px 10px;
+    }
+
+    .section-ten__row-three__content-one {
+        text-align: center;
+        font-size: 35px;
+        padding: 20px 80px;
+        color: rgb(150, 150, 150);
+        font-weight: 600;
+        /* font-family: "Playfair Display", Helvetica, sans-serif !important; */
+        line-height: 0.9;
+        font-family: 'Playfair Display', sansserif;
+    }
+
+    .section-ten__row-three__content-two {
+        text-align: center;
+        font-size: 34px;
+        line-height: 1;
+        font-weight: 600;
+        padding: 20px 80px;
+        font-family: 'Poppins Bold', Arial, Sans-Serif;
+        color: #000;
+    }
+
+    @media (max-width:1320px) {
+        .section-ten__main-content {
+            width: 80%;
+
+        }
+    }
+
+    @media (max-width:1150px) {
+        .section-ten__main-content {
+            width: 90%;
+
+        }
+    }
+
+    @media (max-width:1120px) {
+        .section-ten__main-content {
+            width: 100%;
+
+        }
+    }
+
+    @media (max-width:915px) {
+        .section-ten__row-three__content-one {
+            padding: 20px 50px;
+        }
+
+        .section-ten__row-three__content-two {
+            padding: 20px 50px;
+        }
+    }
+
+    @media (max-width:790px) {
+        .section-ten__row-three {
+            width: 50%;
+
+        }
+    }
+
+    @media (max-width:720px) {
+
+        .section-ten__row-three {
+            width: 100%;
+            padding: 55px 0px;
+        }
+
+        .section-ten__row-one {
+            width: 100%;
+            padding: 45px 0px;
+        }
+
+        .section-ten__row-two__img {
+            width: 50%;
+        }
+    }
+
+    @media (max-width:500px) {
+
+
+        .section-ten__row-two__img {
+            width: 60%;
+        }
+    }
+
+    @media (max-width:400px) {
+        .section-ten__row-two__content {
+            gap: 3rem;
+        }
+
+        .section-ten__row-two__header {
+            font-size: 32px;
+        }
+
+        .section-ten__row-two__img {
+            width: 70%;
+        }
+    }
+
+
+    /* Section Eleven Styling */
+
+    .section-eleven {
+        height: 100%;
+        width: 100%;
+    }
+
+    .section-eleven__container {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: rgb(229, 236, 241);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-eleven__main-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 40px 10px;
+    }
+
+    .section-eleven__top-content {
+        text-align: center;
+        width: 51%;
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 20px;
+        color: #333;
+        line-height: 1.2;
+        word-spacing: 1.2px;
+        font-family: 'Montserrat', sans-serif;
+        /* font-family: Montserrat, Helvetica, sans-serif !important; */
+    }
+
+    .section-eleven__bottom-content {
+        border: 2px solid;
+        border-color: rgb(83, 199, 229);
+        border-right: none;
+        border-left: none;
+        padding: 25px 10px;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .section-eleven__bottom-content #section-eleven_bottom_p1 {
+        font-size: 35px;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        padding: 0 35px;
+    }
+
+    .section-eleven__bottom-content #section-eleven_bottom_p2 {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Cardo', serif;
+        font-weight: 700;
+        color: #333;
+        line-height: 25px;
+        padding: 0px 10px;
+    }
+
+    .section-eleven__bottom-content #section-eleven_bottom_p3 {
+        text-align: center;
+        font-size: 24px;
+        font-family: Montserrat, Helvetica, sans-serif !important;
+        color: #333;
+    }
+
+    .section-eleven__bottom-content #section-eleven_bottom_btn {
+        background-color: #222;
+        border-radius: 4px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 9px 20px 8px;
+        text-align: center;
+        width: 55%;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        background-color: rgb(0, 0, 0);
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    .section-eleven__bottom-content .section-eleven__btn-icon {
+        font-size: 23px;
+        font-weight: bolder;
+        margin-left: 13px;
+
+    }
+
+    @media (max-width:1000px) {
+        .section-eleven__main-content {
+            width: 90%;
+        }
+    }
+
+    @media (max-width:850px) {
+        .section-eleven__main-content {
+            width: 100%;
+        }
+    }
+
+    @media (max-width:770px) {
+        .section-eleven__top-content {
+            width: 100%;
+            padding: 20px 10px;
+        }
+
+        .section-eleven__bottom-content {
+            width: 100%;
+
+        }
+
+        .section-eleven__bottom-content #section-eleven_bottom_btn {
+            width: 40%;
+            padding: 8px 11px 6px;
+            width: 37%;
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width:595px) {
+        .section-eleven__bottom-content #section-eleven_bottom_btn {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:415px) {
+        .section-eleven__bottom-content {
+            padding: 25px 0;
+        }
+
+        .section-eleven__top-content {
+            padding: 20px 0;
+        }
+    }
+
+    @media (max-width:385px) {
+        .section-eleven__main-content {
+            padding: 40px 0px;
+        }
+
+        .section-eleven__bottom-content #section-eleven_bottom_p1 {
+
+            padding: 0 20px;
+        }
+    }
+
+
+    /* Section twelve Styling */
+
+    .section-twelve {
+        width: 100%;
+        height: 100%;
+        background-image: url("https://images.clickfunnels.com/12/4a7850bfe011e8b960291062b3d513/bg-large.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .section-twelve__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+
+    .section-twelve__main-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .section-twelve__headline-wrapper {
+        padding: 10px 20px;
+        width: 55%;
+        text-align: center;
+        font-size: 45px;
+        line-height: 45px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 80px;
+
+    }
+
+    .section-twelve__headline-wrapper #blue-clr {
+        color: #208faf;
+    }
+
+    .section-twelve__module-one {
+        height: 100%;
+        width: 65%;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 45px;
+    }
+
+    .section-twelve__module-one .section-twelve__module-one__image img {
+        filter: grayscale(1);
+        width: 100%;
+    }
+
+    .section-twelve__module-two {
+        height: 100%;
+        width: 65%;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 45px;
+    }
+
+    .section-twelve__module-three {
+        height: 100%;
+        width: 65%;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 45px;
+    }
+
+    .section-twelve__module-four {
+        height: 100%;
+        width: 65%;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 45px;
+    }
+
+    .section-twelve-module {
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        text-align: left;
+        color: #333;
+        padding: 25px 0;
+    }
+
+    .section-twelve-module b {
+        font-weight: 700;
+    }
+
+    .section-twelve-breakline img {
+        width: 100%;
+    }
+
+    .section-twelve-module-text {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.42857143;
+        text-align: left;
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    .section-twelve-module-text ul {
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .section-twelve-module-text ul li {
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .section-twelve-module-text ul li i {
+        font-size: 14px;
+        padding-top: 8px;
+    }
+
+    @media (max-width:651px) {
+        .section-twelve__headline-wrapper {
+            padding: 10px 10px;
+        }
+    }
+
+    @media (max-width:770px) {
+        .section-twelve {
+            background-image: none;
+        }
+
+        .section-twelve__main-content {
+            width: 100%;
+        }
+
+        .section-twelve__module-one {
+            padding: 20px 0px;
+            width: 100%;
+        }
+
+        .section-twelve__module-two {
+
+            padding: 20px 0px;
+            width: 100%;
+        }
+
+        .section-twelve__module-three {
+            width: 100%;
+            padding: 20px 0px;
+
+        }
+
+        .section-twelve__module-four {
+            width: 100%;
+            padding: 20px 0px;
+        }
+    }
+
+    @media (max-width:651px) {
+        .section-twelve__headline-wrapper {
+            width: 100%;
+        }
+    }
+
+
+    /* Section thirteen styling */
+
+    .section-thirteen {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(229, 236, 241);
+    }
+
+    .section-thirteen__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-thirteen__main-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 50px 10px;
+    }
+
+    .section-thirteen__main-headline {
+        font-size: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .section-thirteen__main-text {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: #333;
+        font-weight: 700;
+    }
+
+    .section-thirteen__main-logo {
+        width: 50%;
+    }
+
+    .section-thirteen__main-logo img {
+        width: 100%;
+    }
+
+    .section-thirteen__btn-wrapper {
+        width: 25%;
+        text-align: center;
+    }
+
+    .section-thirteen__btn-wrapper #section-thirteen_btn {
+        background-color: #222;
+        border-radius: 4px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 12px 20px;
+        text-align: center;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        background-color: rgb(0, 0, 0);
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    .section-thirteen__btn-icon {
+        font-size: 23px;
+        font-weight: bolder;
+        margin-left: 13px;
+
+    }
+
+    @media (max-width:1403px) {
+        .section-thirteen__btn-wrapper #section-thirteen_btn {
+            padding: 12px 10px;
+        }
+    }
+
+    @media (max-width:1403px) {
+        .section-thirteen__btn-wrapper {
+            width: 30%;
+        }
+    }
+
+    @media (max-width:1074px) {
+        .section-thirteen__btn-wrapper {
+            width: 35%;
+        }
+    }
+
+    @media (max-width:921px) {
+        .section-thirteen__btn-wrapper {
+            width: 40%;
+        }
+    }
+
+    @media (max-width:807px) {
+        .section-thirteen__btn-wrapper {
+            width: 45%;
+        }
+    }
+
+    @media (max-width:716px) {
+        .section-thirteen__btn-wrapper {
+            width: 50%;
+        }
+    }
+
+    @media (max-width:645px) {
+        .section-thirteen__btn-wrapper {
+            width: 55%;
+        }
+    }
+
+    @media (max-width:586px) {
+        .section-thirteen__btn-wrapper {
+            width: 60%;
+        }
+    }
+
+    @media (max-width:537px) {
+        .section-thirteen__btn-wrapper {
+            width: 60%;
+        }
+
+        .section-thirteen__btn-wrapper #section-thirteen_btn {
+            font-size: 22px;
+        }
+    }
+
+    @media (max-width:770px) {
+        .section-thirteen__main-content {
+            width: 100%;
+        }
+
+        .section-thirteen__main-logo {
+            width: 80%;
+        }
+    }
+
+
+
+    /* Section Fourteen Styling */
+    .section-fourteen {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-fourteen__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .section-fourteen__main-content {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* padding: 0 50px; */
+    }
+
+    .section-fourteen__main-content__text {
+        width: 57%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+
+    .section-fourteen__main-content__text #section-fourteen__txt-one {
+        font-size: 32px;
+        font-family: 'Playfair Display', serif;
+        color: #333;
+    }
+
+
+    .section-fourteen__main-content__text #section-fourteen__txt-two {
+        font-family: 'Cardo', serif;
+        font-size: 20px;
+        color: #333;
+    }
+
+    .section-fourteen__main-content__text #section-fourteen__txt-three {
+        font-size: 32px;
+        font-family: 'Playfair Display', serif;
+        color: #333;
+    }
+
+    .section-fourteen__main-content__text #section-fourteen__txt-three #span-text {
+        font-family: 'Cardo', serif;
+        font-size: 20px;
+        color: #333;
+    }
+
+    @media(max-width:1539px) {
+        .section-fourteen__main-content {
+            width: 80%;
+        }
+
+    }
+
+    @media(max-width:1347px) {
+        .section-fourteen__main-content {
+            width: 90%;
+        }
+
+    }
+
+    @media(max-width:1142px) {
+        .section-fourteen__main-content {
+            width: 85%;
+        }
+
+    }
+
+    @media(max-width:1010px) {
+        .section-fourteen__main-content {
+            width: 90%;
+        }
+
+    }
+
+    @media(max-width:867px) {
+        .section-fourteen__main-content {
+            width: 95%;
+        }
+
+    }
+
+    @media(max-width:822px) {
+        .section-fourteen__main-content {
+            width: 100%;
+        }
+
+    }
+
+    @media (max-width:770px) {
+        .section-fourteen__main-content__text {
+            width: 100%;
+            padding: 0 20px;
+
+        }
+
+    }
+
+/* Section Fifteen Styling */
+.section-fifteen {
+    background-image: url('https://images.clickfunnels.com/5c/b424d0c09511e8b62e79e16f12c048/bg-top.png');
+    background-size: 100% 60% !important;
+    background-position: center top;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+.section-fifteen__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.section-fifteen__main-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.section-fifteen__headline-wrapper {
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+}
+
+.section-fifteen__image-wrapper #section-fifteen__img {
+
+    width: 300px;
+}
+.section-fifteen__main-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section-fifteen__main-text #name-oli {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.section-fifteen__main-text #inner-description{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.42857143;
+}
+.section-fifteen__main-text #inner-description u{
+    font-weight: 700;
+}
+
+
+
+</style>
+
+
+<body>
+    <!-- ***** 
+
+
+     Section One 
+
+
+*****-->
+    <section class="section-one">
+        <div class="container">
+            <div class="main-content">
+                <div class="logo">
+                    <img class="main-logo" src="https://images.clickfunnels.com/e6/049ee0bfd211e8b79735f0e35b501e/foundr.png" alt="">
+                </div>
+                <div class="inner-content">
+                    <h1>INTRODUCTION</h1>
+                    <h1 id="heading-clr">THE ULTIMATE LIST BUILDING BUNDLE</h1>
+                    <h2>Skyrocket your sales with these Two value-packed <br> programs! Introducing...</h2>
+                    <div class="inner-div-content">
+                        <div class="headline-wrapper">
+                            <span>THE <u>FASTEST WAY</u> WE'VE EVER FOUND TO <b id="headline-wrapper-color">GROW YOUR EMAIL LIST</b> , SCALE YOUR BUSSINESS, AND TAKE COMPLETE CONTROL OF YOUR FUTURE...</span>
+                        </div>
+                    </div>
+                </div>
+                <img class="envelop-img" src="https://images.clickfunnels.com/3a/1a3c50bfd411e883f7b904f0b12b56/envelope.png" alt="">
+                <div class="bottom-div">
+                    <strong>
+                        THE ULTIMATE LIST BUILDING BUNDLE
+                    </strong>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <!-- ***** 
+
+
+     Section TWO
+
+
+*****-->
+
+    <section class="section-two">
+        <div class="section-two__container">
+            <div class="section-two__content">
+                <div class="section-two__headline">
+                    <div class="headline-content">Dear&nbsp;
+                        <div>
+                            <i>Fellow Entrepreneur</i>,
+                        </div>
+                    </div>
+                </div>
+                <div class="section-two__text__row-one">
+                    <div class="text-content__row-one">
+                        <div class="inner-text">
+                            <p class="inner-text-one">After working with <b>more than 1,000+ entrpreneurs</b> her at Foundr -- people like Gary Vaynerchuk, Mark Cuban, Brene Brown and Richard Branson -- when it comes to list building, we've never seen anything like this.</p>
+                            <p class="inner-text-two">If you currently have any sort of involvement in building a business...</p>
+                            <p class="inner-text-three">Whether it's an e-commerce store, digital agency, btick-n-motrar retail shop, professional services, SaaS, or even if you're still figuring out your side hustle...</p>
+
+                        </div>
+
+                    </div>
+                    <div class="text-content__row-two">
+                        <span>
+                            <b>
+                                <u>Every kind of business imaginable can generate greater profits more quickly by applying the secrets of a master list builder.</u>
+                            </b>
+                        </span>
+                    </div>
+                    <div class="text-content__row-three">
+                        <div class="row-three__col-one">
+                            <p><i>Even if you just have an idea</i> you're wanting to validate and see where it goes...</p>
+                            <p>We know of no other person with more hands-on experience, who's build and 8-figure comapny around the strategies he shares, and who's also helped others build massive, highly profitable lists, than the founders you'll meet below.</p>
+                            <p><b>By making this a top priority...</b></p>
+                            <p>This one business skill can transform your life, business, and bank statement more dramtically than anything else we know of.</p>
+                        </div>
+                        <div class="row-three__col-two">
+                            <p>You see, some people "think" they have a business, while all they really have is an ad that just happens to be converting at the moment. Which could change by morning.</p>
+                            <p>But by building a list, you'll have a real business...</p>
+                            <p>One that's unaffected by any algorithm changes, privacy surprises, and anything else guaranteed to come your way.</p>
+                            <p>Generating revenue, security, and independence for you day in and day out.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section-two__text__row-two">
+                    <div class="text-row-two__content">
+                        <div class="row-two__content-headline">
+                            <p><b>And the even better news? It doesn't have to be complicated. In fact:</b></p>
+                        </div>
+                        <div class="row-two__content-description">
+                            <div class="description-one flex-section-three-description">
+                                <div class="descrp-icon-one "><img class="iconSize" src="https://images.clickfunnels.com/47/88e2e0bfd611e88d99479921bb7c92/bulletpoint.png" alt=""></div>
+                                <div class="text-one">
+                                    <p>We'll show you how to quickly grow you list without "trying everything" and experience "tactic overwhelm"...</p>
+                                </div>
+                            </div>
+                            <div class="description-two flex-section-three-description">
+                                <div class="descrp-icon-two"><img class="iconSize" src="https://images.clickfunnels.com/47/88e2e0bfd611e88d99479921bb7c92/bulletpoint.png" alt=""></div>
+                                <div class="text-two">
+                                    <p>How can grow your list well beyond 100,000 subsribers using a single strategy...</p>
+                                </div>
+
+                            </div>
+                            <div class="description-three flex-section-three-description">
+                                <div class="descrp-icon-three"><img class="iconSize" src="https://images.clickfunnels.com/47/88e2e0bfd611e88d99479921bb7c92/bulletpoint.png" alt=""></div>
+                                <div class="text-three">
+                                    <p>And how you can grow it on auto-pilot without even having to think about it!</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-two__row-three">
+                    <div class="section-two__text__row-three">
+                        <div class="text__row-three__headline">
+                            <p><b><u>The results are in! The R.O.I on e-mail beats social media and paid ads by over 4x!</u></b></p>
+                        </div>
+                        <div class="row-three__image">
+                            <img src="https://images.clickfunnels.com/9c/987560c5e511e899be0f3b136332cf/Grapch.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ***** 
+
+
+     Section THREE
+
+
+*****-->
+    <section class="section-three">
+        <div class="section-three__container">
+            <div class="section-three__main-content">
+                <div class="section-three__main-headline">
+                    <div class="inner-content__headline-wrapper">
+                        <p>THE <b>TOP 3</b> REASONS TO BUILD YOUR LIST AND NEVER WORRY ABOUT MONEY AGAIN</p>
+                    </div>
+                </div>
+                <div class="section-three__text__row-one">
+                    <div class="section-three__text__row-one__col">
+                        <div class="section-three__text__row-one__col-one">
+                            <p>Within your business building toolbox, there's no shortage of options to choose from.</p>
+                        </div>
+                        <div class="section-three__text__row-one__col-two">
+                            <p>However, for the majority of businesses, the #1 driver of revenue continues to come from email marketing.</p>
+                            <p>In fact, according to a study conducted by the Direct Marketing Association, email has <b>an average return of 122% for every dollar spent!</b></p>
+                            <p>That's more than 4x higher than other marketing formats examined, included social media, direct mail and paid search.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-three__text__row-two">
+                    <div class="section-three__text__row-two__inner-content">
+                        <p>Along with your list being one of the <b>most valuable and profitable assets</b> you have as a business owner, there are 3 more critical reasons why it pays to start focusing on it even more...</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ****
+
+        Section FOUR
+
+****-->
+    <section class="section-four">
+        <div class="section-four__container">
+            <div class="section-four__main-content">
+                <div class="section-four__row-one">
+                    <div class="section-four__row-one__main-content">
+                        <div class="section-four__row-one__col-content">
+
+                            <div class="section-four__row-one__col-one">
+                                <img src="https://images.clickfunnels.com/79/6d7da0bfd811e88ac83b7c0ed05efa/1img.png" class="sec-four-image-one" alt="">
+                            </div>
+                            <div class="section-four__row-one__col-two">
+                                <p class="section-four__col-two__headline-wrapper"><b>IT's MEDIA <br>You OWN</b></p>
+                                <p>Ask any influencer or business owner who’s spent time building their audience on Facebook and Instagram...what happens when the powers in charge decide to change the algorithm?</p>
+                                <p>Do they consult with you on it? Do they lose sleep thinking about the time, money, and years of energy you’ve poured into building your audience on their platform?</p>
+                                <p>That's a joke, right</p>
+                                <p>Like a thief in the night they make their changes and your entire business pays the price. What happens to your organic reach, sales, and even your lifestyle?</p>
+                            </div>
+                            <div class="section-four__row-one__col-three">
+                                <p>Shoot, it doesn’t even have to be an algorithm change. What happens when ad accounts get shut down, or worse...people simply leave the platform you worked so hard to create an audience around?</p>
+                                <p>With email, you actually own the media. It’s yours. You’re the one in control.</p>
+                                <p>Facebook, Instagram, YouTube could all shut down tomorrow and within a few minutes you could tap off a quick email to your list of 15,000 subscribers and have them start following you wherever it is you went.
+                                    It’s the ultimate business insurance. </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <!-- **** 
+            Section Five
+     ****-->
+    <section class="section-five">
+        <div class="section-five__container">
+            <div class="section-five__main-content">
+                <div class="section-five__main-content-col">
+                    <div class="section-five__main-content__col-one">
+                        <p class="section-five__col-one__headline-wrapper"><b>IT's A<br>TRANSACTIONAL<br>MEDIUM</b></p>
+                        <p>Your prospects and customers already expect offers to be made through email. They’re used to making purchases via this medium and are already in a buying frame of mind inside their inbox.</p>
+                        <p>Inbox mindset is far different than “cat videos” social media mindset.</p>
+                        <p>While it’s still possible to convert paid traffic (we do it all the time), dollar for dollar there’s no comparison. Your list converts cheaper, easier, and faster than any other media source you don’t own.</p>
+                        <p>That’s why many businesses’ sole advertising goal is to just acquire the opt-in, because they know how much more “greased” their marketing efforts can be to their own internal list.</p>
+                        <p>Smart business owners take people off of social and onto their list where they’re proven to buy.</p>
+                    </div>
+                    <div class="section-five__main-content__col-two">
+                        <img src="https://images.clickfunnels.com/08/cd2d00bfda11e8a788a58757ecfd4d/2img.png" class="section-five__main-content__col-two__img" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ****
+
+        Section SIX
+
+****-->
+    <section class="section-six">
+        <div class="section-six__container">
+            <div class="section-six__main-content">
+                <div class="section-six__row-one">
+                    <div class="section-six__row-one__main-content">
+                        <div class="section-six__row-one__col-content">
+
+                            <div class="section-six__row-one__col-one">
+                                <img src="https://images.clickfunnels.com/52/d13190bfd911e887444dbec3d220fd/3img.png" class="sec-six-image-one" alt="">
+                            </div>
+                            <div class="section-six__row-one__col-two">
+                                <p class="section-six__col-two__headline-wrapper"><b>IT's A MONEY<br>MAKING ASSET</b></p>
+                                <p>In the online marketing world, it's fairly well established that each one of your email subscribers is worth (at the very least) $1 per subscriber per month. That's considering you're actually emailing and "working" your list.</p>
+                                <p>So if you have a list of 10,000 subscribers, that's $10,000 oer month.</p>
+                                <p>While it's not always about quantity of subscribers--if it was, spammers would be billionaires--on average, when you build your email list using the right strategies, that's about the minimum to expect. $1 per subscriber per month.</p>
+                            </div>
+                            <div class="section-six__row-one__col-three">
+                                <p>There's truly nothing as powerful as an audience whose granted you permission to market to them, who you can communicate with on-demand, for pennies per email.</p>
+                                <p>Need to make tax payment? Send email.</p>
+                                <p>Want to validate the launch of a new product? Send email.</p>
+                                <p>If you want to make more money online month after month, focus on growing your list. It's that simple.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!--  ****
+        Section Seven
+
+****-->
+    <div class="section-seven">
+        <div class="section-seven__container">
+            <div class="section-seven__main-content">
+                <p class="section-seven__text">And here's the man to show you how...</p>
+                <p class="section-seven__headline-wrapper">NOT ANOTHER <br> SELF-ANOINTED "GURU"</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Section Eight -->
+
+    <section class="section-eight">
+        <div class="section-eight__container">
+            <div class="section-eight__main-content">
+                <div class="section-eight__content__header">
+                    <p>Meet The Master <br>Of List Building,</p>
+                </div>
+                <div class="section-eight__content__image">
+                    <img src="https://images.clickfunnels.com/5c/379650bfdb11e8bce75dc2bd32e7e7/stuart2.png" class="section-eight__profile-image" alt="">
+                </div>
+                <div class="section-eight__content__name">
+                    <p>STUART MCKEOWN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ****
+        Section Nine
+    ****-->
+    <section class="section-nine">
+        <div class="section-nine__container">
+            <div class="section-nine__main-content">
+                <div class="section-nine__main-content__logos">
+                    <div class="section-nine__main-content__logo-one"><img src="https://images.clickfunnels.com/dd/ee38c0bfdb11e8b092416862fa9d12/logo1.png" class="section-nine__logo-one" alt=""></div>
+                    <div class="section-nine__main-content__logo-two"><img src="https://images.clickfunnels.com/33/989c70bfdc11e8852427a2c1be130e/logo2.png" class="section-nine__logo-two" alt=""></div>
+                    <div class="section-nine__main-content__logo-three"><img src="https://images.clickfunnels.com/40/ab0420bfdc11e8852427a2c1be130e/logo3.png" class="section-nine__logo-three" alt=""></div>
+                    <div class="section-nine__main-content__logo-four"><img src="https://images.clickfunnels.com/50/151770bfdc11e88d99479921bb7c92/logo4.png" class="section-nine__logo-four" alt=""></div>
+                </div>
+                <div class="section-nine__main-content__text">
+                    <p>These are all clients of Staurt's</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ****
+
+    Section ten
+
+****-->
+    <section class="section-ten">
+        <div class="section-ten__container">
+            <div class="section-ten__main-content">
+                <div class="section-ten__row-one">
+                    <div class="section-ten__row-one__content">
+                        <p>Bootstrapping the entire way and never once receiving anynsort of outside funding, his most recent start up Gleam.io is a marketing app help business grow their email lists and social footprint. Used by the likes of the big brands above and everyone in between.</p>
+                        <p>Now having over 5,000 users and generating over a billion online leads, Stuart has learned first-hand the most effective growth hacking list building strategies that can help you grow faster than ever before.</p>
+                        <p>And now he's taken everything he's learned and put it in one of the most value packed courses we've ever seen.</p>
+                    </div>
+                </div>
+                <div class="section-ten__row-two">
+                    <div class="section-ten__row-two__content">
+                        <div class="section-ten__row-two__header">
+                            <p>INTRODUCTION</p>
+                        </div>
+                        <div class="section-ten__row-two__image">
+                            <img src="https://images.clickfunnels.com/5f/1c8c50c60611e8b3ee6bba86af70de/foundr_list-building-bundle_logo-clear.png" class="section-ten__row-two__img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-ten__row-three">
+                    <div class="section-ten__row-three__content">
+                        <div class="section-ten__row-three__content-one">
+                            <p>The most in-depth list building training for both new and experienced enterpreneurs.</p>
+                        </div>
+                        <div class="section-ten__row-three__content-two">
+                            <p>GROW YOUR LIST & GENERATE MORE PROFITS TODAY!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-eleven">
+        <div class="section-eleven__container">
+            <div class="section-eleven__main-content">
+                <div class="section-eleven__top-content">
+                    <p id="section-eleven_top_p1">This is where it all start. All business revolves around having an audience to sell to. Mastering this skill puts you in the driver's seat of your future.</p>
+                    <p id="section-eleven_top_p2">You'r going to learn the exact methods Stuart has used to generate over a billion online leads, scale multiple 7 and 8 figure companies, and help others build the business of their dreams. There is zero guess work in the content he provides.</p>
+                </div>
+                <div class="section-eleven__bottom-content">
+                    <p id="section-eleven_bottom_p1">STEP BY STEP WALKTHROUGHS AND CASE STUDIES</p>
+                    <P id="section-eleven_bottom_p2">Inside this course Stuart provides step by step demonstrations of how to grow your list the right way. He reveals case studies of some of his most successful clients and how they've used these strategies to build lists of over a million subscriber!</P>
+                    <p id="section-eleven_bottom_p3">You get access to all of it.</p>
+                    <button id="section-eleven_bottom_btn">JOIN NOW<i class="fa-solid fa-greater-than section-eleven__btn-icon"></i> </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ****
+
+        SECTION TWELVE
+
+    **** -->
+    <section class="section-twelve">
+        <div class="section-twelve__container">
+            <div class="section-twelve__main-content">
+                <div class="section-twelve__headline-wrapper">
+                    <p>HERE'S WHAT YOU GET INSIDE <span id="blue-clr">LIST BUILDING MASTERY</span></p>
+                </div>
+                <div class="section-twelve__module-one">
+                    <div class="section-twelve__module-one__header section-twelve-module">
+                        <span><b>MODULE 1:</b><br>BUILDING A SOLID FOUNDATION</span>
+                    </div>
+                    <div class="section-twelve__module-one__breakline section-twelve-breakline">
+                        <img src="https://images.clickfunnels.com/aa/fb0570bfdf11e8b79735f0e35b501e/line.png" alt="">
+                    </div>
+                    <div class="section-twelve__module-one__text section-twelve-module-text">
+                        <p>In this module you'll learn the powerful fundamentals which will <b>change the way you grow your email lists</b> forever. Stuart holds nothing back and even share's his famous <i>"List Growth Formula"</i> giving you everything you need to "copy" his results.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>THE FOUNDATION: </b>Stuart's "List Growth Formula" he's used to generate over a billion online leads!</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>THE POWER OF LIST BUILDING: </b>A proven process to predictably grow your sales as you grow your lists</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>TRAFFIC METRICS THAT MATTER: </b>Master marketing math as Stuart teaches you the few traffic metrics that truly matter!</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="section-twelve__module-one__image">
+                        <img src="https://images.clickfunnels.com/43/3cdb41b23611e89b04ad938e4fdd2d/4.jpg" id="module-one__image" alt="">
+                    </div>
+                </div>
+                <div class="section-twelve__module-two">
+                    <div class="section-twelve__module-two__header section-twelve-module">
+                        <span><b>MODULE 2:</b><br>LIST BUILDING TACTICS (0-1,000+)</span>
+                    </div>
+                    <div class="section-twelve__module-two__breakline section-twelve-breakline">
+                        <img src="https://images.clickfunnels.com/aa/fb0570bfdf11e8b79735f0e35b501e/line.png" alt="">
+                    </div>
+                    <div class="section-twelve__module-two__text section-twelve-module-text">
+                        <p>Module 2 is all about the specific tactics you can use to grow your list to <b>1,000 subscriber and more.</b> Just one of these ideas can be responsible for adding thousands of new options and new customers to your business.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>QUICKEST WAYS TO BUILD YOUR LIST: </b> 11 easy to implement strategies any business can use to immediately grow their list.</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>THE RIGHT WAY TO LEVERAGE BLIG CONTENT: </b>How Stuart used a single blog to grow his list from 1,000 to 50,000 and how you can follow his exact process.</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>INCENTIVIZING YOUR ENTIRE SITE: </b>How to build "evergreen" incentives into your entire site to build your list on autopilot.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-twelve__module-three">
+                    <div class="section-twelve__module-three__header section-twelve-module">
+                        <span><b>MODULE 3:</b><br>ADVANCED LIST BUILDING</span>
+                    </div>
+                    <div class="section-twelve__module-three__breakline section-twelve-breakline">
+                        <img src="https://images.clickfunnels.com/aa/fb0570bfdf11e8b79735f0e35b501e/line.png" alt="">
+                    </div>
+                    <div class="section-twelve__module-three__text section-twelve-module-text">
+                        <p>Going even more in depth, Module 3 takes you into the advanced strategies that can propel the size of your list to the next level.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>REFERRAL MARKETING AND VIRAL CAMPAIGNS: </b>How to st up easy to use referral marketing tools to help your promotions go viral.</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>ALL ABOUT POP-UP TIMING: </b>When to show your pop ups and how to customize the timing based on your visitors behaviors.</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>GROWING YOUR LIST WITH PAID MEDIA: </b>How to use Facebook paid advertisements (even if you're never done it before) to generate new subscriber day after day.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section-twelve__module-four">
+                    <div class="section-twelve__module-four__header section-twelve-module">
+                        <span><b>MODULE 4:</b> <br>BUILDING YOUR BUSINESS PAST YOUR LIST</span>
+                    </div>
+                    <div class="section-twelve__module-four__breakline section-twelve-breakline">
+                        <img src="https://images.clickfunnels.com/aa/fb0570bfdf11e8b79735f0e35b501e/line.png" alt="">
+                    </div>
+                    <div class="section-twelve__module-four__text section-twelve-module-text">
+                        <p>In this module Stuart shows you what to do to continue scaling your business the right way while also avoiding some of the most common pitfalls most entrepreneurs make along the way.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>SCALING THE RIGHT WAY: </b>The exact blueprint for getting to 1,000,000 subscribers even with a small team.</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>THE "DO NOT DO THIS" LIST: </b>6 "do not" commandments to keep your business out of trouble.</p>
+                            </li>
+                            <li><i class="fa-solid fa-circle"></i>
+                                <p><b>KEEPING A HEALTHY LIST USING PROPER FOLLOW UP: </b>Everything you need to know about maximizing your email subscribers' lifetime value.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ****
+
+        Section Thirteen
+
+****-->
+    <section class="section-thirteen">
+        <div class="section-thirteen__container">
+            <div class="section-thirteen__main-content">
+                <div class="section-thirteen__main-headline">
+                    <p>GET THE LIST BUILDING <br>MASTERY COURSE TODAY!</p>
+                </div>
+                <div class="section-thirteen__main-text">
+                    <p>Join now to get immediate access to the <br><i>"List Building Mastery" Course</i></p>
+                </div>
+                <div class="section-thirteen__main-logo">
+                    <img src="https://images.clickfunnels.com/5f/1c8c50c60611e8b3ee6bba86af70de/foundr_list-building-bundle_logo-clear.png" alt="">
+                </div>
+                <div class="section-thirteen__btn-wrapper">
+                    <button id="section-thirteen_btn">JOIN NOW<i class="fa-solid fa-greater-than section-thirteen__btn-icon"></i> </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ****
+
+        Section Fourteen
+
+    ****-->
+
+    <section class="section-fourteen">
+        <div class="section-fourteen__container">
+            <div class="section-fourteen__main-content">
+                <div class="section-fourteen__main-content__text">
+                    <p id="section-fourteen__txt-one">When it comes to list building, this course covers <u>everything</u> you could ever need. </p>
+                    <p id="section-fourteen__txt-two">But it gets ever better... Because one of the fastest and easiest ways to grow your list is to optimize your existing landing pages. They go hand in hand to accelerate your business growth.</p>
+                    <p id="section-fourteen__txt-three"><span id="span-text">That's why we've partnered with the co-founder of Unbounce to <br></span>bring you the <u>2nd course</u> of this Ultimate Business Building Bundle!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ****
+
+    Section Fifteen
+
+****-->
+    <section class="section-fifteen">
+        <div class="section-fifteen__container">
+            <div class="section-fifteen__main-content">
+                <div class="section-fifteen__headline-wrapper">
+                    <p>INSIGHTS FROM MORE THAN 100K LANDING PAGES</p>
+                </div>
+                <div class="section-fifteen__image-wrapper">
+                    <img src="https://images.clickfunnels.com/a9/596bb0c09511e8ac862b92975dd93a/oli-gardner.png" id="section-fifteen__img" alt="">
+                </div>
+                <div class="section-fifteen__main-text">
+                    <p id="name-oli">Oli Gardner</p>
+                    <p id="inner-description">the Founder of Unbounce once joked about legally changing his name <u>"Landing Page"</u> as he's critically reviewed more landing pages than anyone online (100k+) and his company is proudly used by Vimeo, Hootsuite, and the billion dollar company Thomson Reuters. Just to name a few.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+
